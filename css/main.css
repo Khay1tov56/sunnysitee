@@ -495,7 +495,8 @@ background-image: url("../images/learnhover.svg");
 background-repeat: no-repeat;
 background-size: 137px 10px;
 background-position: calc(50% + 0px) calc(50% + 5px);
-} 
+}
+
 .brand__href-span:hover {
   background-image: url("../images/learnhovred.svg");
 }
@@ -591,20 +592,7 @@ background-position: calc(50% + 0px) calc(50% + 5px);
 
   }
 
-  .brand__link {
-    position: static;
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    line-height: 25px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #24303E;
-    border-radius: 10px;
-
-  }
-
+  
   .brand__box {
     display: flex;
   }
@@ -613,6 +601,21 @@ background-position: calc(50% + 0px) calc(50% + 5px);
     display: flex;
   }
 
+
+}
+.brand__link {
+  position: static;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #24303E;
+  border-radius: 10px;
+  left: 0;
+right: 0;
 
 }
 
