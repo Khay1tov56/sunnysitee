@@ -758,6 +758,13 @@ right: 0;
 }
 
 @media only screen and (min-width:700px) {
+
+  .grid {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1390px;
+  }
+
   .grid__block {
     display: grid;
     grid-template-rows: 447px;
